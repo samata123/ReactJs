@@ -1,0 +1,6 @@
+1.Install visual studio
+2.Install node js
+3.create a folder open through visual studio
+4.go to terminal of visual studio
+5.npx create-react-app hello-world project
+6. to start give command npm start
