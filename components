@@ -1,0 +1,15 @@
+refer https://www.pragimtech.com/blog/reactjs/reactjs-introduction/
+
+
+import React from 'react'
+// function Greet()
+// {
+// return <h1>Heloo vishwas </h1>
+// }
+
+const Greet = () => <h1>Heloo vishwas</h1>
+export default Greet
+
+add this in app.js
+
+React is an Open Source JavaScript library used for creating dynamic and interactive user interfaces for mobile and web applications.
