@@ -1,0 +1,16 @@
+import React from 'react'
+
+const Hello = () => {
+    return React.createElement('div',null,React.createElement('h1' ,null,'hello viswas'))
+}
+export default Hello
+
+ 
+we can also create the id for the element
+
+import React from 'react'
+
+const Hello = () => {
+    return React.createElement('div',{id:'new'},React.createElement('h1' ,null,'hello viswas'))
+}
+export default Hello
