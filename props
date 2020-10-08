@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+
+import './App.css';
+
+import Greet from './components/Great';
+import Welcome from './components/Welcome';
+import Hello from './components/Hello';
+class App extends Component {
+ render() {
+  return (
+    <div className="App">
+     {/* <Greet></Greet>
+     <Welcome></Welcome> */}
+     {/* <Hello></Hello> */}
+     <Greet name="bruce" heroname="samata"></Greet>
+     <Greet name="sakshar" heroname="new sam"></Greet>
+     <Greet name="suma" heroname="samata4"></Greet>
+    </div>
+  );
+}
+}
+export default App;
+
+and in geet element 
+import React from 'react'
+// function Greet()
+// {
+// return <h1>Heloo vishwas </h1>
+// }
+
+const Greet = (props) => <h1>Heloo {props.name} {props.heroname}</h1>
+export default Greet
+
+output 
+Heloo bruce samata
+Heloo sakshar new sam
+Heloo suma samata4
