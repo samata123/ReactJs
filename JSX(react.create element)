@@ -14,3 +14,11 @@ const Hello = () => {
     return React.createElement('div',{id:'new'},React.createElement('h1' ,null,'hello viswas'))
 }
 export default Hello
+
+to have the claas for a element className
+import React from 'react'
+
+const Hello = () => {
+    return React.createElement('div',{id:'new',className:"hello"},React.createElement('h1' ,null,'hello viswas'))
+}
+export default Hello
