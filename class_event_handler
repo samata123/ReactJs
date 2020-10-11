@@ -1,0 +1,24 @@
+import React, { Component } from 'react'
+
+ class ClassClick extends Component {
+    
+    changeEvent(){ 
+        console.log("event Changed")
+    }
+    render() {
+
+       
+        return (
+            <div>
+                <button onClick={this.changeEvent}>Click me</button>
+            </div>
+        )
+    }
+}
+
+export default ClassClick
+
+
+
+
+
