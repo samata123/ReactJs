@@ -1,0 +1,16 @@
+import React from 'react'
+
+function FunctionClick() {
+
+
+    function checkfunction(){
+       console.log("button clicked")
+    }
+    return (
+        <div>
+            <button onClick={checkfunction}>click</button>
+        </div>
+    )
+}
+
+export default FunctionClick
