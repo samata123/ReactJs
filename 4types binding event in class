@@ -1,0 +1,36 @@
+import React, { Component } from 'react'
+
+ class Eventbinding extends Component {
+   
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             message:"helo"
+        }
+        // this.clickHnadler=this.clickHnadler.bind(this)
+    }
+    // clickHnadler()
+    // {
+    //  this.setState({
+    //      message:"new"
+    //  })   
+    // }
+ 4)   clickHnadler =() =>{
+        this.setState({
+            message:"good bye!"
+        })
+    }
+    render() {
+        return (
+            <div>
+                <div>{this.state.message}</div>
+              1)  {/* <button onClick={this.clickHnadler.bind(this)}>click</button> */}
+                2){/* <button onClick={() => this.clickHnadler()}>click</button> */}
+                3)<button onClick={ this.clickHnadler}>click</button>
+            </div>
+        )
+    }
+}
+
+export default Eventbinding
