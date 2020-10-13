@@ -26,7 +26,7 @@ import React, { Component } from 'react'
             <div>
                 <div>{this.state.message}</div>
               1)  {/* <button onClick={this.clickHnadler.bind(this)}>click</button> */}
-                2){/* <button onClick={() => this.clickHnadler()}>click</button> */}
+                2){/* <button onClick={() => this.clickHnadler()}>click</button> */} 
                 3)<button onClick={ this.clickHnadler}>click</button>
             </div>
         )
