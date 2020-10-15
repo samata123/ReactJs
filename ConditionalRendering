@@ -41,5 +41,37 @@ import React, { Component } from 'react'
 }
 
 export default Conditionalredendering
+2.variable which stores element o be rendering
+import React, { Component } from 'react'
+
+ class Conditionalredendering extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             isloggedin:false
+        }
+    }
+    
+    
+    
+    render() {
+     let msg
+    if(this.state.isloggedin){
+    msg=<div>Welcome vishwas</div>
+    }
+    else{
+        msg =<div>Welcome guest</div>
+    }
+    return(
+    <div>{msg}</div>
+    )
+
+    }
+}
+
+export default Conditionalredendering
+
+
 
 
