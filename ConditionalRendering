@@ -2,3 +2,44 @@
 2.Element Variable
 3.Ternary Condition Operator
 4.short circuit operator.
+1)program if/else
+import React, { Component } from 'react'
+
+ class Conditionalredendering extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             isloggedin:true
+        }
+    }
+    
+    
+    
+    render() {
+      if(this.state.isloggedin){
+        return (
+            <div>
+                
+         
+               <div>Welcome vishwas </div>
+            </div>
+        )
+      }
+      else{
+        return (
+            <div>
+                
+            <div>Welcome guest </div>
+            
+            </div>
+        )
+      }
+      
+    
+    }
+}
+
+export default Conditionalredendering
+
+
