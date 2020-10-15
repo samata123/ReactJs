@@ -71,7 +71,14 @@ import React, { Component } from 'react'
 }
 
 export default Conditionalredendering
+3.conditional rendering
+ render() {
 
+        return(
+           this.state.isloggedin ?
+            <div>Welcome vishwas</div> :
+            <div>Welcome guest</div>
+        )
 
 
 
