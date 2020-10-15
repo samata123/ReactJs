@@ -80,5 +80,7 @@ export default Conditionalredendering
             <div>Welcome guest</div>
         )
 
-
+4)short circuit operator
+ render() {
+return this.state.isloggedin && <div>Welcome vishwas</div>
 
